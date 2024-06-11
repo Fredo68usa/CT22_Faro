@@ -1,0 +1,47 @@
+[{'UTC Offset': -5, 
+'Instance ID': 5.84817e+17, 
+'OS User': 'OSU_1', 
+'Server Host Name': 'SERVER_11', 
+'Server IP': '1.1.1.1', 
+'Server Port': 1433, 
+'Server Type': 'MS SQL SERVER', 
+'Client Port': 51845, 
+'Source Program': 'MICROSOFT SQL SERVER MANAGEMENT STUDIO', 
+'Uid Chain': '', 
+'Uid Chain Compressed': '', 
+'Original SQL': 'Select * from SSN', 
+'SonarG Source': 'DAM', 
+
+'Server Metadata': 
+{'Hostname': 'SERVER_11', 
+'IP': '1.1.1.11', 
+'Env': 'NON PROD', 
+'Location': 'Internal', 
+'Physical Type': 'Node', 
+'Node Type': 'Database', 
+'PII': 1.0, 
+'Org': 'Neuro', 
+'Business Owner': 'Dr Habbal', 
+'IT Owner': 'Grouillot'}, 
+
+'Client Metadata': 
+{'Hostname': 'LAPTOP_1', 
+'IP': None, 
+'Env': None, 
+'Location': None, 
+'Physical Type': None, 
+'Node Type': None, 
+'PII': nan, 
+'Org': 'Neuro', 
+'Business Owner': 'Rahman MD', 
+'IT Owner': 'Grouillot'}, 
+
+'DB User Metadata': 
+{'DB User Name': 'DBUSER_1', 
+'Acct Type': 'Personal', 
+'email': 'G@G.net', 
+'Shared': 0, 
+'Contact': 'Grouillot'}, 
+
+'DB User Name 2': 'DBUSER_1', 'HashHash': '968c3ede97d8466333059c677f187f88', 'HashHash User Datastore': '968c3ede97d8466333059c677f187f88:DBUSER_1:1.1.1.1:MS SQL SERVER:DB_1', 'DayOfWeek': 'Thursday', 'DayOfYear': 34, 'WeekOfYear': 5, 'Year': 2022, 'data.capturefiltername': 'Policy Rule 1', 'data.fullsql': 'Select * from SSN', 'data.recordsaffected': 10, 'data.responsetime': 20000, 'data.guardiumsessionid': 5.84817e+17, 'data.succeeded': 1, 'data.timestamp': datetime.datetime(2022, 2, 3, 19, 30), 'data.returneddata': '', 'data.clientip': '172.22.87.40', 'data.clienthostname': 'LAPTOP_1', 'data.dbusername': 'DBUSER_1', 'data.dbname': 'DB_1', 'data.networkprotocol': 'TCP', 'data.instancename': 'MS SQL SERVER', 'data.sessionstart': datetime.datetime(2022, 2, 3, 19, 30), 'data.objectsandverbs': ' SSN SELECT', 
+'data.appusername': ''}]

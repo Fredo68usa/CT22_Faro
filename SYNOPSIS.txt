@@ -1,0 +1,29 @@
+As of 
+Feb 27 10:24 FullSQLEnrichSecChecks.py.2 # -- current stable version in Archive
+
+# ---- To ---
+in Extraction.py
+  - NO initial reading of extractions
+  - Read extraction each time is needed
+  - UPdate extractions total per day each time
+
+in secChecks.py
+  - find a way to send notification
+  
+
+# Components :
+- main.py
+- Extraction.py
+- metadata.py
+- FullSQLEnrichSecChecks.py
+- secChecks.py
+
+# The main takes as of today only 1 parameter on the command-line :
+- 1 Collector(s) names, can be partial to cover multiple colls : python3 main.py Coll1 - Will process all collectors whose name contains Coll1
+
+# parameters file :
+- file param_data.json 
+- must be located in the SAME directory as the executables
+
+# Extraction.py
+The extractions for the day are read on case by case per SQL

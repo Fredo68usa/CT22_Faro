@@ -1,0 +1,12 @@
+{
+"ExcessiveExtractionCheck": true ,
+"ecsCompatibility": true ,
+"path": "../CT22_DAM_Data/Faro/ToBeProcessed/",
+"pathProcessed" :"../CT22_DAM_Data/Faro/Processed/",
+"confidentialityPolicyRule" : "Policy Rule 1",
+"ESServer" : "http://localhost:9200",
+"ESUser" : "elastic",
+"ESPwd" : "6ycdFAhDBE2QbcRfPxQV",
+"sqlite" : "../CT22_Common/sqlite/sqlitect22",
+"index" : "enriched_full_sql_test_2"
+}

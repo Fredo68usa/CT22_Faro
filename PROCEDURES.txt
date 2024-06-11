@@ -1,0 +1,27 @@
+here are some common fields that you might consider including in an alert document:
+
+  @timestamp: The timestamp when the alert was triggered.
+  message: A descriptive message providing information about the alert.
+  severity: The severity level of the alert (e.g., "high," "medium," "low").
+  source: The source or origin of the alert.
+  status: The current status of the alert (e.g., "open," "closed").
+  host: Information about the host or system where the alert originated.
+  event_type: The type or category of the alert (e.g., "security," "performance").
+  additional_information: Any other relevant information or metadata associated with the alert.
+  These are just examples, and you can adapt them based on your specific needs. It's important to define a mapping for your Elasticsearch index that reflects the structure of your alert documents. 
+
+POST /enriched_full_sql/_delete_by_query?pretty
+{
+  "query": {
+    "match": {
+      "doc.Confidence Level": "20"
+    }
+  }
+}
+POST /enriched_full_sql_ecs/_delete_by_query?pretty
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
